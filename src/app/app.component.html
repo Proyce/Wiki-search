@@ -1,5 +1,4 @@
 <app-page-list></app-page-list>
 
-<app-search-bar></app-search-bar>
+<app-search-bar (submitted)="onTerm($event)"></app-search-bar>
 
-<router-outlet></router-outlet>
